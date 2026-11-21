@@ -1,0 +1,224 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#f4f7fb;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 50px;
+background:#001d3d;
+color:white;
+}
+
+.logo h2{
+color:#ff3c38;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li{
+position:relative;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.dropdown-content{
+display:none;
+position:absolute;
+background:white;
+min-width:180px;
+top:30px;
+}
+
+.dropdown-content a{
+display:block;
+padding:10px;
+color:black;
+}
+
+.dropdown:hover .dropdown-content{
+display:block;
+}
+
+.submit-btn{
+background:#ff3c38;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.hero{
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,.5),
+rgba(0,0,0,.5)),
+url('images/hero.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.overlay{
+text-align:center;
+color:white;
+}
+
+.overlay h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.search-box{
+background:white;
+padding:20px;
+border-radius:10px;
+display:flex;
+gap:10px;
+margin-top:20px;
+}
+
+.search-box select,
+.search-box button{
+padding:15px;
+border:1px solid #ddd;
+}
+
+.search-box button{
+background:#ff3c38;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.map-section{
+padding:50px;
+}
+
+.map-section iframe{
+width:100%;
+height:450px;
+border:none;
+border-radius:10px;
+}
+
+.property-section{
+padding:50px;
+}
+
+.property-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.card h3,
+.card p,
+.card h2{
+padding:10px;
+}
+
+.card button{
+margin:10px;
+padding:12px;
+background:#001d3d;
+color:white;
+border:none;
+cursor:pointer;
+width:90%;
+}
+
+.badge{
+background:green;
+color:white;
+padding:8px;
+position:absolute;
+margin:10px;
+}
+
+.rent{
+background:red;
+}
+
+#video{
+padding:50px;
+text-align:center;
+}
+
+.video-container video{
+width:80%;
+border-radius:10px;
+}
+
+#about{
+padding:50px;
+background:white;
+text-align:center;
+}
+
+#contact{
+padding:50px;
+text-align:center;
+}
+
+.contact-buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.whatsapp,
+.call{
+padding:15px 25px;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.whatsapp{
+background:green;
+}
+
+.call{
+background:#001d3d;
+}
+
+footer{
+background:#001d3d;
+color:white;
+text-align:center;
+padding:30px;
+}
+ 
